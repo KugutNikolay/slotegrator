@@ -1,0 +1,16 @@
+{
+    "name": "Slotegrator/cart",
+    "description": "Order cart module",
+    "autoload": {
+        "psr-4": {
+            "Modules\\Cart\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Cart\\CartServiceProvider"
+            ]
+        }
+    }
+}
